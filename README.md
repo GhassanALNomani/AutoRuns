@@ -228,6 +228,9 @@ Get-PSAutorun -VerifyDigitalSignature | ? { -not $_.IsOSBinary }
 
 ## Original [Autoruns.exe](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns) from Mark Russinovich
 
+[Autoruns v14.11](https://techcommunity.microsoft.com/t5/sysinternals-blog/procdump-3-2-for-linux-zoomit-v8-0-and-autoruns-v14-11/ba-p/4050610)
+>This update to Autoruns fixes a bug parsing parameters in startup folder items.
+
 [Autoruns v14.1](https://techcommunity.microsoft.com/t5/sysinternals-blog/sysmon-v15-0-autoruns-v14-1-and-process-monitor-v3-95/ba-p/3857916)
 >This update to Autoruns, a utility for monitoring startup items, fixes a bug with detecting non-shortcut files in startup folders, fixes a bug with handling non-UNC, non-absolute paths, and improves theming support.
 
